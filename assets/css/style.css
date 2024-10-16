@@ -1,0 +1,125 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('../img/cumple_1.jpg') no-repeat center center fixed;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #1a6605;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #0c3003;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.container img {
+    width: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-canjear {
+    background-color: #ff9800;
+    color: white;
+    position: relative;
+}
+
+.btn-canjear:hover {
+    background-color: #e68900;
+}
+
+.btn-no-regalo {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-no-regalo:hover {
+    background-color: #388e3c;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Estilos para el mensaje emergente */
+.message-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.message-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.message-box h3 {
+    color: #38026a;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.message-box p {
+    color: #38026a;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.message-box img {
+    width: 80%;
+}
+
+.btn-close {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-close:hover {
+    background-color: #388e3c;
+}
+
